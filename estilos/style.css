@@ -16,7 +16,7 @@ branco:
 }
 
 body, html{
-    background-color: rgba(254, 1, 1, 0.684);
+    background-color: rgb(254, 1, 1);
     height: 150vh;
     width: 100vw;
 
@@ -71,3 +71,33 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+form > div.campo{
+    background-color: rgba(24, 42, 238, 0.933);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: rgba(255, 0, 0, 0.788);
+    color: black;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+}
+
